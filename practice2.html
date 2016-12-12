@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+   <title> slider </title> 
+    
+    <link rel=stylesheet type="text/css" href="style.css">
+    
+    </head>
+    <style>
+     
+        .slider{
+            
+            width: 95%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        .slider ul{
+            display: flex;
+            padding: 0;
+            width: 400%;
+            animation: cambio 20s infinite;
+            animation-direction: alternate;
+        }
+        
+        .slider li{
+            width: 100%;
+            list-style: none;
+            
+        }
+        
+        .slider img{
+            
+            width: 100%;
+        }
+        
+        @keyframes cambio {
+            
+            0% {margin-left: 0;}
+            20% {margin-left: 0;}
+            
+            25% {margin-left: -100%;}
+            45% {margin-left: -100%;}
+            
+            50% {margin-left: -200%;}
+            70% {margin-left: -200%;}
+            
+            75% {margin-left: -300%;}
+            100% {margin-left: -300%;}
+        
+        }
+    
+    
+    </style>
+    
+    <body>
+        
+       <div id="header">
+            <h1> Street Style</h1> </div>
+        
+         <a name="mainmenu"></a>
+        <a name="aboutus"></a>
+                <a name="Contact Us"></a>
+        <a name="FAQ"></a>
+        
+        <div id="navbar">
+            
+              
+        <ul>
+            <li> <a href="mainmenu.html">Main Menu</a></li>
+          <li> <a href="aboutus.html">About Us</a></li>
+            <li> <a href="FAQ.html"> FAQ</a></li>
+            <li> <a href="Contact Us.html"> Contact Us</a></li>
+            </ul>
+        </div>
+        
+        
+        <main> 
+            
+            <article>
+            </article>
+            
+            <aside>
+            </aside>
+           </main>
+    
+    <div class="slider">
+        
+        <ul>
+        
+            <li><img src="M1.JPG" alt=""></li>
+         <li><img src="M2.JPG" alt=""></li>
+             <li><img src="M3.JPG" alt=""></li>
+             <li><img src="M4.jpg" alt=""></li>
+        
+        </ul>
+        
+        </div>
+    
+        <footer></footer>
+    </body>
+
+</html>
