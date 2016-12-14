@@ -1,178 +1,249 @@
-<!doctype html>
-<html>
-      
+
+<!Doctype html>
+<html lang="es">
+
 <head>
-    <title>
-    About Us
-    </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title> Slide Show </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
-    
-    <link rel=stylesheet type="text/css" href="style.css">
-    
-    </head>
-    
-    <body>
-  
-        <header>
-        
-        <div id="headerS"></div>
-        <h1> Sophisticated </h1>
        
-        </header>
-            
-          <a name="Vintage"></a>
-        <a name="Classy"></a>
-                <a name="Sophisticated"></a>
-        <a name="Sexy"></a>
-
-        
-        
-        
-        <div id="footer">
-          <ul>
-            
-            <li><a href="vintage.html"> Vintage</a></li>
-            
-            <li><a href="chickrock.html">Chick Rock</a></li>
-                <li><a href="sophisticated.html">Sophisticated</a></li>
-            <li><a href="Sexy">Sexy</a></li>
-                </ul>
-        </div>
-           
-            <main>
-        
-        <section class="long-box"> <h3>What are you Portraying </h3> <p> Is my style portrying something that i am not?</p> </section>
-           
-     
-        </main>
-         
-          
-        <div class="container">
-        <div class="row">
-        <div class="col-sm-12">
-            <div id="aboutus" class="carousel slide" data-ride="carousel">
-            
-            
-       <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#aboutus" data-slide-to="0" class="active"></li>
-    <li data-target="#aboutus" data-slide-to="1"></li>
-    <li data-target="#aboutus" data-slide-to="2"></li>
-     <li data-target="#aboutus" data-slide-to="3"></li>
-     <li data-target="#aboutus" data-slide-to="4"></li>
-       <li data-target="#aboutus" data-slide-to="5"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="M1.JPG" alt="Michael Kors Fashion Style" width="2000" >
-      <div class="carousel-caption">
-          <h1> Women / Men </h1>
-        </div>
-      </div>
-      
-     <div class="item">
-      <img src="M2.JPG" alt="...">
-      <div class="carousel-caption">
-         
-         </div>
-      </div>
-      
-           <div class="item">
-      <img src="M1.JPG" alt="...">
-      <div class="carousel-caption">
-          
-               </div>
-      </div>
-      
-           <div class="item">
-      <img src="M8.jpg" alt="...">
-      <div class="carousel-caption">
-         
-               </div>
-      </div>
-      
-           <div class="item">
-      <img src="M4.jpg" alt="...">
-      <div class="carousel-caption">
-          
-          
-               </div>
-               
-        <div class="item">
-      <img src="M4.jpg" alt="...">
-      <div class="carousel-caption">
-          
-          
-               </div>
-            
-            <div class="item">
-      <img src="M5.jpg" alt="...">
-      <div class="carousel-caption">
-          
-          
-               </div>
-                
-        <div class="item">
-      <img src="M3.jpg" alt="...">
-      <div class="carousel-caption">
-          
-          
-               </div>  
-            
-        <div class="item">
-      <img src="M6.jpg" alt="...">
-      <div class="carousel-caption">
-          
-          
-               </div>
-            
-         <div class="item">
-      <img src="M7.jpg" alt="...">
-      <div class="carousel-caption">
-          
-                  
-               </div>
-             
-         <div class="item">
-      <img src="M2.jpg" alt="...">
-      <div class="carousel-caption">
-          <h1> Forever 21 </h1>
-          
-               </div>
-      </div>
-          
-        
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#aboutus" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#aboutus" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>     
-            
-            </div>      
-            
-            
-            
-            </div>
-            </div>
-            </div>>
-            </div>
-            
-            
-            
-            
-            
- 
+    </head>
+   <style>
+.mySlides {
+    display:none
+       }
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+       }
+.w3-badge {
+    height:13px;width:13px;padding:0
+       }
+       
+       * {
+           box-sizing: border-box;
+       }
+body {
+    background: black;
+    margin: 0;
+    font-family: monospace;
     
+}
+       img {
+           max-width: 100%;
+       }
+h1 {
+           
+           color: aliceblue;
+           text-align: center;
+    font-family: serif;
+    font-size: 400%;
+       }
+#navbar ul {
+            padding: 2px;
+            list-style-type:none;
+            line-height: 1.5em;
+            margin: 1em auto;
+                        display: 
+                flex;        
+            justify-content: center;
+            flex-flow: row wrap;
+            text-align: center;
+        }
+#navbar ul li {
+        
+        }
+#navbar ul li a {
+            text-decoration: none;
+            font-family: serif;
+            padding: .2em 1em;
+            color: antiquewhite;
+            background-color: dimgrey;
+    
+        }
+#navbar ul li a:hover{
+            color:wheat;
+            background-color: #1C0D0C;
+        }
+
+main{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    
+}
+
+main aside{
+    flex: 1 0 25%;
+    
+}
+
+main article{
+    flex: 2 0 50%;
+}
+  aside#left {
+          
+         
+          background-color: dimgrey;
+         ;
+          text-align: center;
+      margin-top: 25px;
+           padding-top: 15px;
+           }
+        
+       article{
+           
+          max-width: 600px;
+          min-width: 300px;
+          background-color: dimgrey;
+           margin-left: auto;
+           margin-right: auto;
+           text-align: center;
+           margin-top: 150px;
+       }
+       
+       aside#right {
+         
+           background-color:dimgrey;
+           text-align: center;
+           margin-top: 25px;
+           padding-top: 15px;
+       } 
+       
+       h2{
+           text-align: center;
+           padding-left: 12px;
+           padding-right: 2px;
+           font-family: serif;
+           font-size: 50px;
+           color: #000937;
+       }
+       
+       p{
+           
+           text-align: center;
+           padding left: 15px;
+           padding-right: 5px;
+           margin-left: 10px;
+           color: #26253E;
+           font-family:  sans-serif;
+           font-size: 20px;
+           
+           
+       }
+       
+       
+       
+       
+       .center-img {
+           text-align: center;
+       }  
+        #footer{
+            width:500px;
+            height:20px;
+            margin:20px auto;
+            clear: both;
+            color: white;
+            font-size: 80%;
+            text-align: center;
+            
+        }
+        </style>  
+    <body> 
+    
+    <h1> Sophisticated </h1>
+    
+        <a name="vintage"></a>
+        <a name="sexy"></a>
+        <a name="classy"></a>
+        <a name="chickrock"></a>
+        <a name="mainmenu"></a>
+        
+        <div id="navbar">        
+        <ul>
+            <li> <a href="vintage.html"> Vintage </a></li>
+            <li> <a href="sexy.html">Sexy</a></li>
+            <li> <a href="classy.html"> Classy</a></li>
+            <li> <a href="chickrock.html"> Chick Rock</a></li>
+            <li> <a href="mainmenu.html">Main Menu</a></li>
+        </ul>
+        </div>
+        
+<div class="w3-content w3-display-container" style="max-width:800px">
+  <img class="mySlides" height="500px" src="M31.jpg" style="width:100%" >
+  <img class="mySlides" height="500px" src="M5.jpg" style="width:100%" >
+  <img class="mySlides" height="500px" src="M6.jpg" style="width:100%" >
+  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+   <main>
+        
+        <aside id="left">
+            
+            <img src="M8.jpg" >
+            
+            <p> Melina Krayte </p>
+            
+            </aside>
+        <article> <h2> How we dress is what we portrait... </h2>
+           
+            <p> As college students, we grow into who we want to be; and fashion is definitely a great way to express who we are.        We not only come to college to study, but to express ourselves more fully and convey our forms of styles.
+                In this category we focused towards students who portray themselves through business casual attire.            
+                This style portrayed tyhe confidence and sharp tone students individually maintain.</p>
+            </article>    
+       
+            <aside id="right"> 
+                 <img src="M10.jpg">
+            <p> Savanah Harrison </p>
+            
+            </aside>
+        
+         
+             
+        </main>
+        
+         <div id="footer">
             
             
-            </body>
+        &copy; 2016 Abril Montes.com. All Rights Reserved.
+       
+        </div>      
+                   
+
+    </body>
+
+</html>

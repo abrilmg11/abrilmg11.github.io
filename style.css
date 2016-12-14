@@ -1,8 +1,9 @@
  *{margin:0px;
         padding:0px;
+     box-sizing: border-box;
         }
         html{
-            background-color: white;
+            
            
         }    
         
@@ -13,7 +14,12 @@
             background-color: white;
             font-family: sans-serif;
             font-size: 17px;
+            background-color: black;
+            
         }
+img {
+    max-width: 100%;
+}
         #header{
             margin:5px;
             
@@ -39,66 +45,76 @@
             text-decoration: none;
             font-family: serif;
             padding: .2em 1em;
-            color: antiquewhite;
-            background-color: black;
+            color: wheat;
+            background-color: gray;
         }
         #navbar ul li a:hover{
             color:antiquewhite;
-            background-color: sandybrown;
+            background-color: #1C0D0C;
         }
         
         #footer{
             width:500px;
             height:20px;
-            margin:20px auto;
+            margin:10px auto;
             clear: both;
-            color: black;
-            font-size: 80%;
+            color: white;
+            font-size: 100%;
             text-align: center;
+            flex-flow: row wrap;
+            display: inline;
+            
+                
+           
+            
             
         }
+
         
          #footer ul {
-            padding left:35% px;
+            padding left:35%;
             list-style-type: none;
             text-align: center;
             height:30px;
-            margin:2px;
-        }
+            margin:5px;
+           
+                }
+
         #footer ul li {
             display: inline;
+            
         }
         
         #footer ul li a {
             text-decoration: none;
             font-family: serif;
             padding: 5px;
-            background-color:black;
-            color:antiquewhite;
+            background-color:grey;
+            color:wheat;
         }
         #footer ul li a:hover{
             color:antiquewhite;
-            background-color: sandybrown;
+            background-color: #1C0D0C;
         }
         
         
         h1{
             font-size: 400%;
-                color: grey;
+                color: dimgrey;
             text-align: center;
                 font-family: serif;
             margin: auto;
-         
+         text-decoration: underline;
             
         }
         
         .bannerbox{
             margin: auto;
-              border:2px solid ;
+              border:15px solid gray;
             
         padding: 15px 50px;
         
-            width: 80%;
+            width: 100%;
             max-width: 800px;
             
                 
@@ -126,7 +142,8 @@
             text-align: center;
             padding-top: 2%;
             font-size: 20px;
-            
+            padding-bottom: .5%;
+            color: white
         }
         
         section#logo{
@@ -134,16 +151,18 @@
             font-size: 25px;
             padding-top: 1.2%;
             padding-bottom: 5%;
+            color: white;
         }
         
         
         .bannerbox{
-            height: 400px;
+           
             margin: auto;
-              border:10px solid ;
-            padding: 15px 50px;            
-            width: 100%;
-            max-width: 850px;
+              border:10px solid gray;
+            padding: 15px 10px;            
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
             
                 
         }
@@ -151,7 +170,8 @@
             
         
         .bannerbox img{
-            width: 100%;
+            width: 80%;
+            padding-bottom: 5px;
         }
         
 main{
@@ -159,153 +179,39 @@ main{
     flex-flow: row wrap;
     justify-content: space-around;
     
+    
+}
+
+main aside{
+    flex: 1 0 25%;
+    
+}
+
+main article{
+    flex: 2 0 25%;
 }
 
 .interest-box h3{
     
  text-align: center;
     margin-bottom: .5em;
+    
 }
 
 .interest-box{
     
     flex: 0 0 15em;
 }
-        aside#left{
-            width: 32%;
-            height: 300px;
-            float: left;
-            text-align: center;
-            font-size: 25px;
-            padding-top: 1.2%;
-            margin-right: 1%;
-            margin-left: 1%;
-           
-        }
         
-        article{
-            width: 32%;
-            height: 300px;
-            float: left;
-            text-align: center;
-            font-size: 25px;
-            padding-top: 1.2%;
-            margin-right: 1%;
-           
-        }
-        
-        aside#right{
-            width: 32%;
-            height: 300px;
-            float: left;
-            text-align: center;
-           font-size: 25px;
-            padding-top: 1.2%;
-           margin-right: 1%;
-            
-        }
-        
-
-/*body{
-    background: black;
-    margin: 0;
+h3{
+    color: white;
+    text-decoration: underline;
     font-family: monospace;
-    
 }
 
-.slide{
-    width: 90%;
-    margin: auto;
-    list-style: none;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.slide li {
-    
-    margin: 5px;
-}
-
-.slide img{
-    
-    width: 150px;
-    height: 100px;
-}
-
-.modal{
-    
-    display: none;
-}
-
-.modal: target {
-    display: block;
-    position: fixed;
-    background: black;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-}
-
-.modal h3{
-    color: aqua;
-    font-size: 30px;
+p{
     text-align: center;
-    margin: 15px 0;
+    font-family: serif;
+    color: white;
+    border: 2px solid white; 
 }
-
-.image{
-    
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image a{
-    
-    color: aquamarine;
-    font-size: 40px;
-    text-decoration: none;
-    margin: 0 10px;
-    
-}
-
-.image a:nth-child(2) {
-    margin: 0;
-    height: 100%;
-    flex-shrink: 2;
-    
-}
-
-
-.image img{
-    
-    width: 500px;
-    height: 100%;
-    max-width: 100%;
-    border: 7px solid #fff;
-    box-sizing: border-box;
-}
-
-.close{
-    
-    display: block;
-    background: green;
-    width: 25px;
-    height: 25px;
-    margin: 15px auto;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    color: bisque;
-    padding: 5px;
-    border-radius: 50%;
-    line-height: 25px;
-    
-}*/
